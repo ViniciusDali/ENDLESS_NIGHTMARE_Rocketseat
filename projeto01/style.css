@@ -1,132 +1,70 @@
-@import url("https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
-
 * {
   margin: 0;
-  padding: 0;
   box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
-  font-size: 1rem;
-  background-image: url(./imagens/projeto.png);
+  text-align: center;
+  padding-top: 160px;
+  background-image: url(https://i.ibb.co/k2kj0Xc/projeto.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: center;
+
   height: 100vh;
-  max-width: 1280;
-  max-height: 832;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
 
-main {
-  text-align: center;
-}
-
-.titulo_topo {
-  color: #ffffff;
-  text-align: center;
   font-family: "Inter", sans-serif;
-  font-size: 1rem;
 }
 
-span {
-  color: #ffc700;
-  font-family: "Inter", sans-serif;
-  font-size: 1rem;
+h3 {
+  font-size: 16px;
+  line-height: 19px;
+  color: white;
 }
-.titulo_principal {
+
+h3 span {
   color: #ffc700;
-  font-family: "Emilys Candy", cursive;
-  font-size: 4rem;
-  text-align: center;
+}
+
+h1 {
+  color: #ffc700;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 80px;
   text-transform: uppercase;
-  margin-top: 4px;
-  margin-bottom: 4px;
+  font-family: "Emilys Candy", cursive;
 }
 
 p {
-  font-family: "Inter", sans-serif;
-  color: #707070 ;
-  font-size: 1.2rem;
-  text-align: center;
+  font-size: 20px;
+  line-height: 24px;
   margin-bottom: 72px;
+  color: white;
+  opacity: 0.7;
+}
+
+a {
+  padding: 12px 32px;
   font-weight: 700;
-}
-
-.link {
-  color:#b6b6b6 ;
-  font-family: "Inter", sans-serif;
   font-size: 20px;
-  font-weight: bold;
-  text-align: center;
+  line-height: 24px;
   text-transform: uppercase;
-  padding-left: 32px;
-  padding-right: 32px;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  margin-right: 8px;
+  color: white;
+  opacity: 0.6;
 }
-
+a:hover,
 .botao {
-  font-family: "Inter", sans-serif;
-  color: #040101;
+  padding: 12px 32px;
+  font-weight: 700;
   font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-  text-transform: uppercase;
-  background-color: #ffc700;
-  padding-left: 32px;
-  padding-right: 32px;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  margin-left: 8px;
+  line-height: 24px;
   text-decoration: none;
-}
-
-@media screen and (max-width: 768px) {
-  main {
-    margin-top: 16%;
-    margin-left: 8%;
-    margin-right: 8%;
-  }
-  p {
-    margin-left: 8%;
-    margin-right: 8%;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  body {
-    background-color: #040101;
-  }
-
-  main {
-    margin-top: 40%;
-    margin-left: 8%;
-    margin-right: 8%;
-  }
-
-  .titulo_principal {
-    font-size: 3rem;
-  }
-
-  p {
-    margin-left: 8%;
-    margin-right: 8%;
-    font-size: 0.8rem;
-    margin-bottom: 24px;
-  }
-
-  .links {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .link {
-    margin-bottom: 24px;
-  }
+  color: black;
+  background-color: #ffc700;
+  text-transform: uppercase;
+  opacity: 1;
+  cursor: pointer;
+  border-radius: 5px;
 }
